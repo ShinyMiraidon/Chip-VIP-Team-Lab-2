@@ -1,0 +1,32 @@
+Fetching registry information from https://github.com/microsoft/vcpkg.git (HEAD)...
+Fetching registry information from https://github.com/NYU-Processor-Design/nyu-registry.git (HEAD)...
+Detecting compiler hash for triplet arm64-osx...
+The following packages will be built and installed:
+    catch2[core]:arm64-osx -> 3.2.1 -- /Users/michaellippe/.cache/vcpkg/registries/git-trees/43e022b806928c512e298052ad4fae210998a846
+    nyu-cmake[core]:arm64-osx -> 1.1.0 -- /Users/michaellippe/.cache/vcpkg/registries/git-trees/c75ffde9378e09219e5003d2b128b7c39ba516d9
+  * vcpkg-cmake[core]:arm64-osx -> 2022-11-13 -- /Users/michaellippe/.cache/vcpkg/registries/git-trees/3adf8df8d492adfc105a09c6e50b913e662178b6
+  * vcpkg-cmake-config[core]:arm64-osx -> 2022-02-06#1 -- /Users/michaellippe/.cache/vcpkg/registries/git-trees/8d54cc4f487d51b655abec5f9c9c3f86ca83311f
+Additional packages (*) will be modified to complete this operation.
+Restored 4 package(s) from /Users/michaellippe/.cache/vcpkg/archives in 193.1 ms. Use --debug to see more details.
+Installing 1/4 vcpkg-cmake-config:arm64-osx...
+Elapsed time to handle vcpkg-cmake-config:arm64-osx: 1.555 ms
+Installing 2/4 vcpkg-cmake:arm64-osx...
+Elapsed time to handle vcpkg-cmake:arm64-osx: 1.392 ms
+Installing 3/4 catch2:arm64-osx...
+Elapsed time to handle catch2:arm64-osx: 38.31 ms
+Installing 4/4 nyu-cmake:arm64-osx...
+Elapsed time to handle nyu-cmake:arm64-osx: 1.659 ms
+Total install time: 236.1 ms
+catch2 provides CMake targets:
+
+    # this is heuristically generated, and may not be correct
+    find_package(Catch2 CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
+
+nyu-cmake does not provide any targets, only functions
+
+    find_package(nyu-cmake CONFIG REQUIRED)
+
+    nyu_add_sv(target verilog.sv)
+    nyu_verilate(target)
+

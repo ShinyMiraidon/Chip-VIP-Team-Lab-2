@@ -1,0 +1,14 @@
+# Target labels
+ vcpkg-populate
+# Source files and their labels
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate.rule
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate-complete.rule
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-build.rule
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-configure.rule
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-download.rule
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-install.rule
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-mkdir.rule
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-patch.rule
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-test.rule
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-update.rule

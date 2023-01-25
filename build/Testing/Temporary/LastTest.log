@@ -1,0 +1,79 @@
+Start testing: Jan 25 14:47 EST
+----------------------------------------------------------
+1/4 Testing: exercise1
+1/4 Test: exercise1
+Command: "/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/exercise1"
+Directory: /Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build
+"exercise1" start time: Jan 25 14:47 EST
+Output:
+----------------------------------------------------------
+Randomness seeded to: 1062020820
+===============================================================================
+All tests passed (262144 assertions in 4 test cases)
+
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"exercise1" end time: Jan 25 14:47 EST
+"exercise1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: exercise2
+2/4 Test: exercise2
+Command: "/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/exercise2"
+Directory: /Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build
+"exercise2" start time: Jan 25 14:47 EST
+Output:
+----------------------------------------------------------
+Randomness seeded to: 572365212
+===============================================================================
+All tests passed (404 assertions in 4 test cases)
+
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"exercise2" end time: Jan 25 14:47 EST
+"exercise2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: exercise3
+3/4 Test: exercise3
+Command: "/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/exercise3"
+Directory: /Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build
+"exercise3" start time: Jan 25 14:47 EST
+Output:
+----------------------------------------------------------
+Randomness seeded to: 1274525769
+===============================================================================
+All tests passed (101 assertions in 1 test case)
+
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"exercise3" end time: Jan 25 14:47 EST
+"exercise3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: exercise4
+4/4 Test: exercise4
+Command: "/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/exercise4"
+Directory: /Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build
+"exercise4" start time: Jan 25 14:47 EST
+Output:
+----------------------------------------------------------
+Randomness seeded to: 2307487682
+===============================================================================
+All tests passed (5 assertions in 1 test case)
+
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"exercise4" end time: Jan 25 14:47 EST
+"exercise4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 25 14:47 EST

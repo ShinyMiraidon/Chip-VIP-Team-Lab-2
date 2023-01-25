@@ -1,0 +1,51 @@
+Performing C++ SOURCE FILE Test _mno_cet failed with the following output:
+Change Dir: /Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-FwCgoO
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19c81/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_19c81.dir/build.make CMakeFiles/cmTC_19c81.dir/build
+Building CXX object CMakeFiles/cmTC_19c81.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D_mno_cet  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk   -mno-cet -MD -MT CMakeFiles/cmTC_19c81.dir/src.cxx.o -MF CMakeFiles/cmTC_19c81.dir/src.cxx.o.d -o CMakeFiles/cmTC_19c81.dir/src.cxx.o -c "/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-FwCgoO/src.cxx"
+clang: error: unknown argument: '-mno-cet'
+make[1]: *** [CMakeFiles/cmTC_19c81.dir/src.cxx.o] Error 1
+make: *** [cmTC_19c81/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test _mt failed with the following output:
+Change Dir: /Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-G1EguV
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ffc50/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ffc50.dir/build.make CMakeFiles/cmTC_ffc50.dir/build
+Building CXX object CMakeFiles/cmTC_ffc50.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D_mt  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -MD -MT CMakeFiles/cmTC_ffc50.dir/src.cxx.o -MF CMakeFiles/cmTC_ffc50.dir/src.cxx.o.d -o CMakeFiles/cmTC_ffc50.dir/src.cxx.o -c "/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-G1EguV/src.cxx"
+Linking CXX executable cmTC_ffc50
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc50.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ffc50.dir/src.cxx.o -o cmTC_ffc50  -mt 
+clang: error: unknown argument: '-mt'
+make[1]: *** [cmTC_ffc50] Error 1
+make: *** [cmTC_ffc50/fast] Error 2
+
+
+Source file was:
+int main() {return 0;}
+
+
+Performing C++ SOURCE FILE Test _latomic failed with the following output:
+Change Dir: /Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-RiLgzm
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_516a0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_516a0.dir/build.make CMakeFiles/cmTC_516a0.dir/build
+Building CXX object CMakeFiles/cmTC_516a0.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -D_latomic  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -MD -MT CMakeFiles/cmTC_516a0.dir/src.cxx.o -MF CMakeFiles/cmTC_516a0.dir/src.cxx.o.d -o CMakeFiles/cmTC_516a0.dir/src.cxx.o -c "/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/CMakeFiles/CMakeScratch/TryCompile-RiLgzm/src.cxx"
+Linking CXX executable cmTC_516a0
+/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_516a0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_516a0.dir/src.cxx.o -o cmTC_516a0  -latomic 
+ld: library not found for -latomic
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_516a0] Error 1
+make: *** [cmTC_516a0/fast] Error 2
+
+
+Source file was:
+int main() {return 0;}
+
+

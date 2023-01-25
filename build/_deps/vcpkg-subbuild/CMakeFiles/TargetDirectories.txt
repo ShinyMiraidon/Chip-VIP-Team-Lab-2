@@ -1,0 +1,3 @@
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate.dir
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/CMakeFiles/edit_cache.dir
+/Users/michaellippe/Local Storage/VIP Chip Team/Labs/Lab2/build/_deps/vcpkg-subbuild/CMakeFiles/rebuild_cache.dir

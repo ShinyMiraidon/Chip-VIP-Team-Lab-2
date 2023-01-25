@@ -1,0 +1,5 @@
+exercise1 1 0.2304
+exercise2 1 0.0934213
+exercise3 1 0.0913742
+exercise4 1 0.0890503
+---
